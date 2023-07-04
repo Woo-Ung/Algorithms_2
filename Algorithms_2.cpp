@@ -254,7 +254,7 @@ void Merge(int input[], int start, int half, int end, int temp[])
 	{
 		temp[tempIndex++] = input[i++];
 	}
-	while (j <= half)
+	while (j <= end)
 	{
 		temp[tempIndex++] = input[j++];
 	}
@@ -319,7 +319,6 @@ void QuickSort(int input[], int left, int right)
 		QuickSort(input, i, right);
 	}
 }
-
 
 int main()
 {
