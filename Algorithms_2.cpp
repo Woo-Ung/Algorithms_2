@@ -320,7 +320,6 @@ void QuickSort(int input[], int left, int right)
 	}
 }
 
-
 int main()
 {
 	const int ARRAY_SIZE{ 5 };
